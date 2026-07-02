@@ -1,0 +1,2774 @@
+[
+  {
+    "disease": "Hypertension",
+    "category": "Cardiology",
+    "symptoms": [
+      "headache",
+      "dizziness",
+      "blurred vision",
+      "chest pain",
+      "shortness of breath"
+    ],
+    "risk_factors": [
+      "obesity",
+      "high salt intake",
+      "family history",
+      "smoking",
+      "sedentary lifestyle"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "medium",
+    "description": "Persistently elevated blood pressure that can damage the heart and blood vessels over time.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Heart Disease",
+    "category": "Cardiology",
+    "symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "fatigue",
+      "irregular heartbeat",
+      "dizziness"
+    ],
+    "risk_factors": [
+      "smoking",
+      "high cholesterol",
+      "diabetes",
+      "obesity",
+      "family history"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "high",
+    "description": "A range of conditions affecting the heart's structure and function, including coronary artery disease.",
+    "emergency_flags": [
+      "chest pain",
+      "severe shortness of breath"
+    ]
+  },
+  {
+    "disease": "Heart Attack",
+    "category": "Cardiology",
+    "symptoms": [
+      "chest pain",
+      "pain radiating to arm",
+      "shortness of breath",
+      "cold sweat",
+      "nausea",
+      "lightheadedness"
+    ],
+    "risk_factors": [
+      "smoking",
+      "high cholesterol",
+      "hypertension",
+      "diabetes",
+      "obesity"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "high",
+    "description": "Sudden blockage of blood flow to part of the heart muscle, causing tissue damage.",
+    "emergency_flags": [
+      "chest pain",
+      "pain radiating to arm",
+      "cold sweat"
+    ]
+  },
+  {
+    "disease": "Arrhythmia",
+    "category": "Cardiology",
+    "symptoms": [
+      "irregular heartbeat",
+      "palpitations",
+      "dizziness",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "risk_factors": [
+      "heart disease",
+      "high blood pressure",
+      "excessive caffeine",
+      "stress"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "medium",
+    "description": "Abnormal heart rhythm caused by irregular electrical signals in the heart.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Heart Failure",
+    "category": "Cardiology",
+    "symptoms": [
+      "shortness of breath",
+      "swelling in legs",
+      "fatigue",
+      "rapid heartbeat",
+      "persistent cough"
+    ],
+    "risk_factors": [
+      "hypertension",
+      "coronary artery disease",
+      "diabetes",
+      "obesity"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "high",
+    "description": "Condition in which the heart cannot pump blood efficiently enough to meet the body's needs.",
+    "emergency_flags": [
+      "severe shortness of breath"
+    ]
+  },
+  {
+    "disease": "Atherosclerosis",
+    "category": "Cardiology",
+    "symptoms": [
+      "chest pain",
+      "leg pain when walking",
+      "numbness in limbs",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "high cholesterol",
+      "smoking",
+      "diabetes",
+      "hypertension",
+      "sedentary lifestyle"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "medium",
+    "description": "Buildup of fatty plaques inside artery walls, narrowing blood flow over time.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Deep Vein Thrombosis",
+    "category": "Cardiology",
+    "symptoms": [
+      "leg swelling",
+      "leg pain",
+      "warmth in leg",
+      "redness of skin",
+      "tenderness"
+    ],
+    "risk_factors": [
+      "prolonged immobility",
+      "surgery",
+      "obesity",
+      "pregnancy",
+      "smoking"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "high",
+    "description": "A blood clot that forms in a deep vein, usually in the leg, which can be dangerous if it travels to the lungs.",
+    "emergency_flags": [
+      "sudden leg swelling",
+      "severe leg pain"
+    ]
+  },
+  {
+    "disease": "Peripheral Artery Disease",
+    "category": "Cardiology",
+    "symptoms": [
+      "leg pain when walking",
+      "numbness in legs",
+      "cold feet",
+      "weak pulse in legs"
+    ],
+    "risk_factors": [
+      "smoking",
+      "diabetes",
+      "high cholesterol",
+      "hypertension"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "medium",
+    "description": "Narrowing of arteries that reduces blood flow to the limbs, most often the legs.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Cardiomyopathy",
+    "category": "Cardiology",
+    "symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "swelling in legs",
+      "irregular heartbeat",
+      "dizziness"
+    ],
+    "risk_factors": [
+      "family history",
+      "high blood pressure",
+      "alcohol use",
+      "viral infection"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "high",
+    "description": "Disease of the heart muscle that makes it harder for the heart to pump blood effectively.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Migraine",
+    "category": "Neurology",
+    "symptoms": [
+      "headache",
+      "nausea",
+      "sensitivity to light",
+      "sensitivity to sound",
+      "blurred vision"
+    ],
+    "risk_factors": [
+      "family history",
+      "stress",
+      "hormonal changes",
+      "lack of sleep"
+    ],
+    "specialist": "Neurologist",
+    "severity": "medium",
+    "description": "Recurrent, often severe headaches frequently accompanied by nausea and sensory sensitivity.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Epilepsy",
+    "category": "Neurology",
+    "symptoms": [
+      "seizures",
+      "loss of consciousness",
+      "confusion",
+      "staring spells",
+      "muscle jerking"
+    ],
+    "risk_factors": [
+      "head injury",
+      "family history",
+      "brain infection",
+      "stroke"
+    ],
+    "specialist": "Neurologist",
+    "severity": "high",
+    "description": "Neurological disorder causing recurrent, unprovoked seizures.",
+    "emergency_flags": [
+      "seizures",
+      "loss of consciousness"
+    ]
+  },
+  {
+    "disease": "Stroke",
+    "category": "Neurology",
+    "symptoms": [
+      "sudden numbness",
+      "facial drooping",
+      "slurred speech",
+      "confusion",
+      "sudden severe headache",
+      "vision loss"
+    ],
+    "risk_factors": [
+      "hypertension",
+      "smoking",
+      "diabetes",
+      "high cholesterol",
+      "atrial fibrillation"
+    ],
+    "specialist": "Neurologist",
+    "severity": "high",
+    "description": "Interruption of blood supply to part of the brain, causing rapid loss of brain function.",
+    "emergency_flags": [
+      "facial drooping",
+      "slurred speech",
+      "sudden numbness",
+      "sudden severe headache"
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "category": "Neurology",
+    "symptoms": [
+      "tremor",
+      "muscle stiffness",
+      "slow movement",
+      "balance problems",
+      "speech changes"
+    ],
+    "risk_factors": [
+      "age",
+      "family history",
+      "exposure to toxins"
+    ],
+    "specialist": "Neurologist",
+    "severity": "medium",
+    "description": "Progressive nervous system disorder affecting movement, often starting with a tremor in one hand.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "category": "Neurology",
+    "symptoms": [
+      "fatigue",
+      "numbness",
+      "vision problems",
+      "muscle weakness",
+      "balance problems"
+    ],
+    "risk_factors": [
+      "family history",
+      "low vitamin d",
+      "smoking",
+      "autoimmune conditions"
+    ],
+    "specialist": "Neurologist",
+    "severity": "high",
+    "description": "Autoimmune disease in which the immune system attacks the protective covering of nerve fibers.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Bell's Palsy",
+    "category": "Neurology",
+    "symptoms": [
+      "facial drooping",
+      "facial weakness",
+      "drooling",
+      "difficulty closing eye",
+      "loss of taste"
+    ],
+    "risk_factors": [
+      "viral infection",
+      "pregnancy",
+      "diabetes",
+      "upper respiratory infection"
+    ],
+    "specialist": "Neurologist",
+    "severity": "medium",
+    "description": "Sudden weakness or paralysis of muscles on one side of the face due to nerve dysfunction.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Peripheral Neuropathy",
+    "category": "Neurology",
+    "symptoms": [
+      "numbness",
+      "tingling hands",
+      "tingling feet",
+      "burning pain",
+      "muscle weakness"
+    ],
+    "risk_factors": [
+      "diabetes",
+      "alcohol use",
+      "vitamin deficiency",
+      "chemotherapy"
+    ],
+    "specialist": "Neurologist",
+    "severity": "medium",
+    "description": "Damage to peripheral nerves causing weakness, numbness, and pain, usually in the hands and feet.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Tension Headache",
+    "category": "Neurology",
+    "symptoms": [
+      "headache",
+      "scalp tenderness",
+      "neck stiffness",
+      "pressure around head"
+    ],
+    "risk_factors": [
+      "stress",
+      "poor posture",
+      "lack of sleep",
+      "eye strain"
+    ],
+    "specialist": "Neurologist",
+    "severity": "low",
+    "description": "The most common type of headache, causing mild to moderate dull, aching pain across the head.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Vertigo",
+    "category": "Neurology",
+    "symptoms": [
+      "dizziness",
+      "spinning sensation",
+      "nausea",
+      "balance problems",
+      "vomiting"
+    ],
+    "risk_factors": [
+      "inner ear disorder",
+      "migraine",
+      "head injury"
+    ],
+    "specialist": "Neurologist",
+    "severity": "low",
+    "description": "A sensation of spinning or movement, often caused by inner ear or neurological issues.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Trigeminal Neuralgia",
+    "category": "Neurology",
+    "symptoms": [
+      "facial pain",
+      "sharp facial pain",
+      "pain triggered by touch",
+      "jaw pain"
+    ],
+    "risk_factors": [
+      "age",
+      "multiple sclerosis",
+      "blood vessel compression"
+    ],
+    "specialist": "Neurologist",
+    "severity": "medium",
+    "description": "Chronic pain condition causing sudden, severe facial pain along the trigeminal nerve.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Asthma",
+    "category": "Respiratory",
+    "symptoms": [
+      "shortness of breath",
+      "wheezing",
+      "chest tightness",
+      "cough",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "family history",
+      "allergies",
+      "air pollution",
+      "smoking"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "medium",
+    "description": "Chronic inflammatory condition of the airways causing recurring breathing difficulty.",
+    "emergency_flags": [
+      "severe shortness of breath",
+      "blue lips"
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "category": "Respiratory",
+    "symptoms": [
+      "fever",
+      "cough",
+      "chest pain",
+      "shortness of breath",
+      "fatigue",
+      "chills"
+    ],
+    "risk_factors": [
+      "smoking",
+      "weakened immune system",
+      "age extremes",
+      "chronic illness"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "high",
+    "description": "Infection that inflames the air sacs in one or both lungs, often filling them with fluid.",
+    "emergency_flags": [
+      "severe shortness of breath",
+      "confusion"
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease",
+    "category": "Respiratory",
+    "symptoms": [
+      "shortness of breath",
+      "chronic cough",
+      "wheezing",
+      "chest tightness",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "smoking",
+      "air pollution",
+      "occupational dust exposure"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "high",
+    "description": "Progressive lung disease that causes airflow blockage and breathing-related problems.",
+    "emergency_flags": [
+      "severe shortness of breath",
+      "blue lips"
+    ]
+  },
+  {
+    "disease": "Bronchitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "persistent cough",
+      "chest discomfort",
+      "fatigue",
+      "mild fever",
+      "mucus production"
+    ],
+    "risk_factors": [
+      "smoking",
+      "air pollution",
+      "viral infection"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "low",
+    "description": "Inflammation of the bronchial tubes that carry air to the lungs, causing cough and mucus.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Tuberculosis",
+    "category": "Respiratory",
+    "symptoms": [
+      "persistent cough",
+      "chest pain",
+      "fatigue",
+      "weight loss",
+      "night sweats",
+      "fever"
+    ],
+    "risk_factors": [
+      "weakened immune system",
+      "close contact with infected person",
+      "malnutrition"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "high",
+    "description": "Bacterial infection primarily affecting the lungs, spread through airborne droplets.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Pulmonary Embolism",
+    "category": "Respiratory",
+    "symptoms": [
+      "sudden shortness of breath",
+      "chest pain",
+      "rapid heartbeat",
+      "cough",
+      "lightheadedness"
+    ],
+    "risk_factors": [
+      "prolonged immobility",
+      "recent surgery",
+      "smoking",
+      "obesity"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "high",
+    "description": "A blockage in one of the pulmonary arteries in the lungs, usually caused by a blood clot.",
+    "emergency_flags": [
+      "sudden shortness of breath",
+      "chest pain",
+      "coughing blood"
+    ]
+  },
+  {
+    "disease": "Pleurisy",
+    "category": "Respiratory",
+    "symptoms": [
+      "sharp chest pain",
+      "pain when breathing",
+      "shortness of breath",
+      "cough"
+    ],
+    "risk_factors": [
+      "viral infection",
+      "autoimmune disease",
+      "pneumonia"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "medium",
+    "description": "Inflammation of the lining around the lungs, causing sharp pain with breathing.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Sleep Apnea",
+    "category": "Respiratory",
+    "symptoms": [
+      "loud snoring",
+      "daytime fatigue",
+      "gasping during sleep",
+      "morning headache"
+    ],
+    "risk_factors": [
+      "obesity",
+      "smoking",
+      "alcohol use",
+      "family history"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "medium",
+    "description": "Sleep disorder in which breathing repeatedly stops and starts during sleep.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Gastritis",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "nausea",
+      "vomiting",
+      "bloating",
+      "loss of appetite"
+    ],
+    "risk_factors": [
+      "nsaid use",
+      "alcohol use",
+      "h. pylori infection",
+      "stress"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Inflammation of the stomach lining, often causing pain and digestive discomfort.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Gastroenteritis",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "diarrhea",
+      "vomiting",
+      "abdominal pain",
+      "nausea",
+      "fever"
+    ],
+    "risk_factors": [
+      "contaminated food",
+      "contaminated water",
+      "close contact with infected person"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Inflammation of the stomach and intestines typically caused by viral or bacterial infection.",
+    "emergency_flags": [
+      "severe dehydration",
+      "blood in stool"
+    ]
+  },
+  {
+    "disease": "Gastroesophageal Reflux Disease",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "heartburn",
+      "regurgitation",
+      "chest discomfort",
+      "difficulty swallowing",
+      "sore throat"
+    ],
+    "risk_factors": [
+      "obesity",
+      "smoking",
+      "large meals",
+      "lying down after eating"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "low",
+    "description": "Chronic condition where stomach acid flows back into the esophagus, causing irritation.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Peptic Ulcer Disease",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "bloating",
+      "heartburn",
+      "nausea",
+      "dark stools"
+    ],
+    "risk_factors": [
+      "h. pylori infection",
+      "nsaid use",
+      "smoking",
+      "alcohol use"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Open sores that develop on the inner lining of the stomach or upper small intestine.",
+    "emergency_flags": [
+      "vomiting blood",
+      "black tarry stools"
+    ]
+  },
+  {
+    "disease": "Irritable Bowel Syndrome",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "bloating",
+      "diarrhea",
+      "constipation",
+      "gas"
+    ],
+    "risk_factors": [
+      "stress",
+      "food intolerance",
+      "family history"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "low",
+    "description": "Common disorder affecting the large intestine causing cramping, bloating, and altered bowel habits.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Inflammatory Bowel Disease",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "diarrhea",
+      "blood in stool",
+      "weight loss",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "family history",
+      "smoking",
+      "immune system dysfunction"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "high",
+    "description": "Chronic inflammation of the digestive tract, including Crohn's disease and ulcerative colitis.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Gallstones",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "back pain",
+      "nausea",
+      "vomiting",
+      "bloating"
+    ],
+    "risk_factors": [
+      "obesity",
+      "rapid weight loss",
+      "high cholesterol diet",
+      "female sex"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Hardened deposits of digestive fluid that form in the gallbladder, sometimes blocking bile flow.",
+    "emergency_flags": [
+      "severe abdominal pain",
+      "yellowing of skin"
+    ]
+  },
+  {
+    "disease": "Pancreatitis",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "severe abdominal pain",
+      "back pain",
+      "nausea",
+      "vomiting",
+      "fever"
+    ],
+    "risk_factors": [
+      "alcohol use",
+      "gallstones",
+      "high triglycerides"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "high",
+    "description": "Inflammation of the pancreas that can cause severe abdominal pain and digestive problems.",
+    "emergency_flags": [
+      "severe abdominal pain"
+    ]
+  },
+  {
+    "disease": "Celiac Disease",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "diarrhea",
+      "bloating",
+      "fatigue",
+      "weight loss",
+      "abdominal pain"
+    ],
+    "risk_factors": [
+      "family history",
+      "autoimmune conditions"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Autoimmune disorder in which eating gluten triggers an immune response damaging the small intestine.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hemorrhoids",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "rectal bleeding",
+      "anal itching",
+      "anal pain",
+      "swelling near anus"
+    ],
+    "risk_factors": [
+      "chronic constipation",
+      "pregnancy",
+      "prolonged sitting",
+      "straining during bowel movements"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "low",
+    "description": "Swollen veins in the lower rectum and anus causing discomfort and occasional bleeding.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Appendicitis",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "loss of appetite",
+      "nausea",
+      "vomiting",
+      "fever"
+    ],
+    "risk_factors": [
+      "age 10 to 30",
+      "family history"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "high",
+    "description": "Inflammation of the appendix that typically causes pain starting near the navel and shifting to the lower right abdomen.",
+    "emergency_flags": [
+      "severe abdominal pain",
+      "rigid abdomen"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "category": "Dermatology",
+    "symptoms": [
+      "itchy skin",
+      "dry skin",
+      "skin rash",
+      "skin redness",
+      "skin cracking"
+    ],
+    "risk_factors": [
+      "family history",
+      "allergies",
+      "asthma",
+      "dry climate"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Chronic skin condition causing inflamed, itchy, and cracked patches of skin.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Psoriasis",
+    "category": "Dermatology",
+    "symptoms": [
+      "skin rash",
+      "scaly skin patches",
+      "itchy skin",
+      "dry cracked skin",
+      "joint pain"
+    ],
+    "risk_factors": [
+      "family history",
+      "stress",
+      "smoking",
+      "obesity"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "medium",
+    "description": "Autoimmune condition causing rapid skin cell buildup, resulting in scaly, itchy patches.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Acne",
+    "category": "Dermatology",
+    "symptoms": [
+      "skin pimples",
+      "blackheads",
+      "whiteheads",
+      "oily skin",
+      "skin redness"
+    ],
+    "risk_factors": [
+      "hormonal changes",
+      "family history",
+      "certain medications"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Common skin condition occurring when hair follicles become clogged with oil and dead skin cells.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Urticaria",
+    "category": "Dermatology",
+    "symptoms": [
+      "skin hives",
+      "itchy skin",
+      "skin swelling",
+      "skin redness"
+    ],
+    "risk_factors": [
+      "allergies",
+      "stress",
+      "infections",
+      "medications"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Also known as hives; raised, itchy welts on the skin often triggered by an allergic reaction.",
+    "emergency_flags": [
+      "facial swelling",
+      "difficulty breathing"
+    ]
+  },
+  {
+    "disease": "Cellulitis",
+    "category": "Dermatology",
+    "symptoms": [
+      "skin redness",
+      "skin swelling",
+      "skin warmth",
+      "fever",
+      "pain at site"
+    ],
+    "risk_factors": [
+      "skin injury",
+      "weakened immune system",
+      "diabetes"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "medium",
+    "description": "Bacterial infection of the deeper layers of skin, causing redness, swelling, and warmth.",
+    "emergency_flags": [
+      "rapidly spreading redness",
+      "high fever"
+    ]
+  },
+  {
+    "disease": "Shingles",
+    "category": "Dermatology",
+    "symptoms": [
+      "skin rash",
+      "burning pain",
+      "blisters",
+      "itching",
+      "fever"
+    ],
+    "risk_factors": [
+      "age over 50",
+      "weakened immune system",
+      "prior chickenpox infection"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "medium",
+    "description": "Viral infection causing a painful rash, caused by reactivation of the chickenpox virus.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Fungal Skin Infection",
+    "category": "Dermatology",
+    "symptoms": [
+      "itchy skin",
+      "skin redness",
+      "skin peeling",
+      "ring shaped rash"
+    ],
+    "risk_factors": [
+      "warm humid climate",
+      "sweating",
+      "shared personal items",
+      "weakened immune system"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Infection of the skin caused by fungi, often presenting as itchy, scaly, ring-shaped patches.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Vitiligo",
+    "category": "Dermatology",
+    "symptoms": [
+      "loss of skin color",
+      "patchy skin discoloration",
+      "premature graying of hair"
+    ],
+    "risk_factors": [
+      "family history",
+      "autoimmune conditions"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Condition causing loss of skin pigment, resulting in white patches on various parts of the body.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Diabetes",
+    "category": "Endocrinology",
+    "symptoms": [
+      "frequent urination",
+      "increased thirst",
+      "fatigue",
+      "blurred vision",
+      "unexplained weight loss"
+    ],
+    "risk_factors": [
+      "obesity",
+      "family history",
+      "sedentary lifestyle",
+      "age"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "medium",
+    "description": "Chronic condition affecting blood sugar regulation.",
+    "emergency_flags": [
+      "confusion",
+      "loss of consciousness",
+      "fruity breath odor"
+    ]
+  },
+  {
+    "disease": "Hypothyroidism",
+    "category": "Endocrinology",
+    "symptoms": [
+      "fatigue",
+      "weight gain",
+      "cold intolerance",
+      "dry skin",
+      "depression"
+    ],
+    "risk_factors": [
+      "family history",
+      "autoimmune disease",
+      "female sex",
+      "age"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "medium",
+    "description": "Underactive thyroid gland producing insufficient thyroid hormone, slowing metabolism.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hyperthyroidism",
+    "category": "Endocrinology",
+    "symptoms": [
+      "weight loss",
+      "rapid heartbeat",
+      "sweating",
+      "anxiety",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "family history",
+      "autoimmune disease",
+      "female sex"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "medium",
+    "description": "Overactive thyroid gland producing excess thyroid hormone, speeding up metabolism.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Cushing's Syndrome",
+    "category": "Endocrinology",
+    "symptoms": [
+      "weight gain",
+      "fatigue",
+      "high blood pressure",
+      "skin thinning",
+      "muscle weakness"
+    ],
+    "risk_factors": [
+      "long-term steroid use",
+      "pituitary tumor"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "medium",
+    "description": "Condition caused by prolonged exposure to high cortisol levels in the body.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Addison's Disease",
+    "category": "Endocrinology",
+    "symptoms": [
+      "fatigue",
+      "weight loss",
+      "low blood pressure",
+      "skin darkening",
+      "salt craving"
+    ],
+    "risk_factors": [
+      "autoimmune disease",
+      "infections",
+      "adrenal gland damage"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "high",
+    "description": "Disorder in which the adrenal glands do not produce enough hormones.",
+    "emergency_flags": [
+      "severe weakness",
+      "loss of consciousness"
+    ]
+  },
+  {
+    "disease": "Polycystic Ovary Syndrome",
+    "category": "Endocrinology",
+    "symptoms": [
+      "irregular periods",
+      "weight gain",
+      "acne",
+      "excess facial hair",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "obesity",
+      "family history",
+      "insulin resistance"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "low",
+    "description": "Hormonal disorder common among women of reproductive age, affecting ovulation and metabolism.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Obesity",
+    "category": "Endocrinology",
+    "symptoms": [
+      "excess body weight",
+      "fatigue",
+      "shortness of breath on exertion",
+      "joint pain"
+    ],
+    "risk_factors": [
+      "sedentary lifestyle",
+      "poor diet",
+      "family history",
+      "hormonal imbalance"
+    ],
+    "specialist": "Endocrinologist",
+    "severity": "medium",
+    "description": "Excess body fat accumulation that increases the risk of numerous chronic diseases.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Arthritis",
+    "category": "Orthopedics",
+    "symptoms": [
+      "joint pain",
+      "joint stiffness",
+      "swelling",
+      "reduced range of motion",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "age",
+      "family history",
+      "obesity",
+      "previous joint injury"
+    ],
+    "specialist": "Rheumatologist",
+    "severity": "medium",
+    "description": "Inflammation of one or more joints causing pain and stiffness.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Osteoporosis",
+    "category": "Orthopedics",
+    "symptoms": [
+      "bone pain",
+      "loss of height",
+      "stooped posture",
+      "frequent fractures"
+    ],
+    "risk_factors": [
+      "age",
+      "female sex",
+      "low calcium intake",
+      "sedentary lifestyle"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "medium",
+    "description": "Condition in which bones become weak and brittle, increasing fracture risk.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Osteoarthritis",
+    "category": "Orthopedics",
+    "symptoms": [
+      "joint pain",
+      "joint stiffness",
+      "swelling",
+      "reduced flexibility"
+    ],
+    "risk_factors": [
+      "age",
+      "obesity",
+      "joint injury",
+      "repetitive stress"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "medium",
+    "description": "Degenerative joint disease caused by wear and tear of cartilage over time.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "category": "Orthopedics",
+    "symptoms": [
+      "joint pain",
+      "joint swelling",
+      "morning stiffness",
+      "fatigue",
+      "fever"
+    ],
+    "risk_factors": [
+      "family history",
+      "smoking",
+      "female sex"
+    ],
+    "specialist": "Rheumatologist",
+    "severity": "medium",
+    "description": "Autoimmune disorder in which the immune system attacks the joints, causing inflammation.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Gout",
+    "category": "Orthopedics",
+    "symptoms": [
+      "joint pain",
+      "joint swelling",
+      "joint redness",
+      "warmth in joint"
+    ],
+    "risk_factors": [
+      "high purine diet",
+      "alcohol use",
+      "obesity",
+      "family history"
+    ],
+    "specialist": "Rheumatologist",
+    "severity": "medium",
+    "description": "Form of arthritis caused by excess uric acid forming sharp crystals in a joint, often the big toe.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Sciatica",
+    "category": "Orthopedics",
+    "symptoms": [
+      "lower back pain",
+      "leg pain",
+      "numbness in leg",
+      "tingling in leg"
+    ],
+    "risk_factors": [
+      "prolonged sitting",
+      "obesity",
+      "age",
+      "heavy lifting"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "medium",
+    "description": "Pain that radiates along the path of the sciatic nerve, from the lower back down the leg.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Herniated Disc",
+    "category": "Orthopedics",
+    "symptoms": [
+      "back pain",
+      "leg pain",
+      "numbness",
+      "muscle weakness"
+    ],
+    "risk_factors": [
+      "age",
+      "heavy lifting",
+      "obesity",
+      "sedentary lifestyle"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "medium",
+    "description": "Condition where the soft cushion between spinal bones pushes out, often pressing on nearby nerves.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Tendinitis",
+    "category": "Orthopedics",
+    "symptoms": [
+      "joint pain",
+      "tenderness",
+      "mild swelling",
+      "pain with movement"
+    ],
+    "risk_factors": [
+      "repetitive motion",
+      "age",
+      "sports activity"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "low",
+    "description": "Inflammation or irritation of a tendon, usually caused by repetitive movement or overuse.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Fracture",
+    "category": "Orthopedics",
+    "symptoms": [
+      "severe pain",
+      "swelling",
+      "bruising",
+      "deformity",
+      "inability to move limb"
+    ],
+    "risk_factors": [
+      "trauma",
+      "osteoporosis",
+      "high-impact sports"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "high",
+    "description": "A break in a bone, ranging from a thin crack to a complete break, usually due to trauma.",
+    "emergency_flags": [
+      "visible deformity",
+      "inability to move limb"
+    ]
+  },
+  {
+    "disease": "Depression",
+    "category": "Psychiatry",
+    "symptoms": [
+      "persistent sadness",
+      "fatigue",
+      "loss of interest",
+      "sleep disturbance",
+      "difficulty concentrating"
+    ],
+    "risk_factors": [
+      "family history",
+      "trauma",
+      "chronic illness",
+      "substance use"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "medium",
+    "description": "Mood disorder causing persistent feelings of sadness and loss of interest in activities.",
+    "emergency_flags": [
+      "thoughts of self-harm",
+      "suicidal ideation"
+    ]
+  },
+  {
+    "disease": "Anxiety",
+    "category": "Psychiatry",
+    "symptoms": [
+      "excessive worry",
+      "restlessness",
+      "rapid heartbeat",
+      "fatigue",
+      "difficulty concentrating"
+    ],
+    "risk_factors": [
+      "family history",
+      "trauma",
+      "chronic stress",
+      "substance use"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "medium",
+    "description": "Mental health condition characterized by persistent, excessive worry and nervousness.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Bipolar Disorder",
+    "category": "Psychiatry",
+    "symptoms": [
+      "mood swings",
+      "elevated mood",
+      "decreased need for sleep",
+      "irritability",
+      "depressive episodes"
+    ],
+    "risk_factors": [
+      "family history",
+      "stress",
+      "trauma"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "high",
+    "description": "Mental health condition marked by extreme mood swings between emotional highs and lows.",
+    "emergency_flags": [
+      "suicidal ideation",
+      "risky impulsive behavior"
+    ]
+  },
+  {
+    "disease": "Panic Disorder",
+    "category": "Psychiatry",
+    "symptoms": [
+      "sudden intense fear",
+      "rapid heartbeat",
+      "chest pain",
+      "shortness of breath",
+      "dizziness"
+    ],
+    "risk_factors": [
+      "family history",
+      "major stress",
+      "trauma"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "medium",
+    "description": "Disorder characterized by recurring, unexpected panic attacks and fear of future attacks.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Obsessive-Compulsive Disorder",
+    "category": "Psychiatry",
+    "symptoms": [
+      "intrusive thoughts",
+      "repetitive behaviors",
+      "anxiety",
+      "need for symmetry"
+    ],
+    "risk_factors": [
+      "family history",
+      "trauma",
+      "stress"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "medium",
+    "description": "Disorder featuring unwanted recurring thoughts and repetitive behaviors performed to reduce anxiety.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Post-Traumatic Stress Disorder",
+    "category": "Psychiatry",
+    "symptoms": [
+      "flashbacks",
+      "nightmares",
+      "anxiety",
+      "avoidance behavior",
+      "irritability"
+    ],
+    "risk_factors": [
+      "exposure to trauma",
+      "combat experience",
+      "abuse history"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "high",
+    "description": "Mental health condition triggered by experiencing or witnessing a traumatic event.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Insomnia",
+    "category": "Psychiatry",
+    "symptoms": [
+      "difficulty falling asleep",
+      "difficulty staying asleep",
+      "daytime fatigue",
+      "irritability"
+    ],
+    "risk_factors": [
+      "stress",
+      "anxiety",
+      "poor sleep habits",
+      "caffeine use"
+    ],
+    "specialist": "Psychiatrist",
+    "severity": "low",
+    "description": "Persistent difficulty falling or staying asleep despite adequate opportunity to sleep.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Kidney Stones",
+    "category": "Nephrology",
+    "symptoms": [
+      "severe abdominal pain",
+      "back pain",
+      "blood in urine",
+      "nausea",
+      "frequent urination"
+    ],
+    "risk_factors": [
+      "dehydration",
+      "high salt diet",
+      "family history",
+      "obesity"
+    ],
+    "specialist": "Urologist",
+    "severity": "medium",
+    "description": "Hard mineral deposits that form in the kidneys and can cause significant pain when passing.",
+    "emergency_flags": [
+      "severe pain",
+      "fever with flank pain"
+    ]
+  },
+  {
+    "disease": "Chronic Kidney Disease",
+    "category": "Nephrology",
+    "symptoms": [
+      "fatigue",
+      "swelling in legs",
+      "frequent urination",
+      "loss of appetite",
+      "nausea"
+    ],
+    "risk_factors": [
+      "diabetes",
+      "hypertension",
+      "family history",
+      "age"
+    ],
+    "specialist": "Nephrologist",
+    "severity": "high",
+    "description": "Gradual loss of kidney function over time, often caused by diabetes or high blood pressure.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Urinary Tract Infection",
+    "category": "Nephrology",
+    "symptoms": [
+      "frequent urination",
+      "burning sensation",
+      "abdominal pain",
+      "cloudy urine",
+      "fever"
+    ],
+    "risk_factors": [
+      "female sex",
+      "sexual activity",
+      "urinary catheter use"
+    ],
+    "specialist": "Urologist",
+    "severity": "low",
+    "description": "Bacterial infection affecting any part of the urinary system, most often the bladder.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Glomerulonephritis",
+    "category": "Nephrology",
+    "symptoms": [
+      "blood in urine",
+      "foamy urine",
+      "swelling in legs",
+      "high blood pressure",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "autoimmune disease",
+      "infections",
+      "diabetes"
+    ],
+    "specialist": "Nephrologist",
+    "severity": "high",
+    "description": "Inflammation of the kidney's filtering units, which can impair kidney function.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Kidney Infection",
+    "category": "Nephrology",
+    "symptoms": [
+      "fever",
+      "back pain",
+      "frequent urination",
+      "burning sensation",
+      "nausea"
+    ],
+    "risk_factors": [
+      "urinary tract infection history",
+      "urinary blockage",
+      "female sex"
+    ],
+    "specialist": "Urologist",
+    "severity": "medium",
+    "description": "Bacterial infection that has spread to one or both kidneys, often from the bladder.",
+    "emergency_flags": [
+      "high fever",
+      "severe back pain"
+    ]
+  },
+  {
+    "disease": "Polycystic Kidney Disease",
+    "category": "Nephrology",
+    "symptoms": [
+      "back pain",
+      "abdominal pain",
+      "high blood pressure",
+      "blood in urine",
+      "frequent urination"
+    ],
+    "risk_factors": [
+      "family history"
+    ],
+    "specialist": "Nephrologist",
+    "severity": "high",
+    "description": "Genetic disorder causing numerous fluid-filled cysts to develop in the kidneys.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hepatitis A",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "nausea",
+      "abdominal pain",
+      "loss of appetite",
+      "yellowing of skin"
+    ],
+    "risk_factors": [
+      "contaminated food",
+      "contaminated water",
+      "poor sanitation"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "medium",
+    "description": "Liver infection caused by the hepatitis A virus, usually spread through contaminated food or water.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hepatitis B",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "joint pain",
+      "abdominal pain",
+      "yellowing of skin",
+      "dark urine"
+    ],
+    "risk_factors": [
+      "unprotected sex",
+      "shared needles",
+      "blood transfusion history"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "high",
+    "description": "Serious liver infection caused by the hepatitis B virus, which can become chronic.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hepatitis C",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "joint pain",
+      "abdominal pain",
+      "yellowing of skin",
+      "dark urine"
+    ],
+    "risk_factors": [
+      "shared needles",
+      "blood transfusion history",
+      "unprotected sex"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "high",
+    "description": "Liver infection caused by the hepatitis C virus, often leading to chronic liver disease.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Fatty Liver Disease",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "abdominal discomfort",
+      "weakness",
+      "weight gain"
+    ],
+    "risk_factors": [
+      "obesity",
+      "diabetes",
+      "alcohol use",
+      "high cholesterol"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "medium",
+    "description": "Accumulation of excess fat in the liver, which can lead to inflammation and liver damage.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Cirrhosis",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "yellowing of skin",
+      "abdominal swelling",
+      "easy bruising",
+      "loss of appetite"
+    ],
+    "risk_factors": [
+      "chronic alcohol use",
+      "chronic hepatitis",
+      "fatty liver disease"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "high",
+    "description": "Late-stage liver scarring caused by long-term liver damage, impairing liver function.",
+    "emergency_flags": [
+      "vomiting blood",
+      "confusion"
+    ]
+  },
+  {
+    "disease": "Jaundice",
+    "category": "Hepatology",
+    "symptoms": [
+      "yellowing of skin",
+      "yellowing of eyes",
+      "dark urine",
+      "fatigue",
+      "itchy skin"
+    ],
+    "risk_factors": [
+      "liver disease",
+      "gallstones",
+      "certain infections"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "medium",
+    "description": "Yellowing of the skin and eyes caused by elevated bilirubin levels, usually due to liver dysfunction.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Flu",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "cough",
+      "headache",
+      "body pain",
+      "sore throat"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "weakened immune system",
+      "winter season"
+    ],
+    "specialist": "General Physician",
+    "severity": "medium",
+    "description": "Contagious viral respiratory infection causing fever, body aches, and fatigue.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Common Cold",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "cough",
+      "sore throat",
+      "runny nose",
+      "sneezing",
+      "fever"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "weakened immune system",
+      "cold weather"
+    ],
+    "specialist": "General Physician",
+    "severity": "low",
+    "description": "Mild viral infection of the upper respiratory tract.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "COVID-19",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "cough",
+      "fatigue",
+      "body pain",
+      "loss of taste",
+      "loss of smell"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "weakened immune system",
+      "crowded settings"
+    ],
+    "specialist": "General Physician",
+    "severity": "high",
+    "description": "Infectious respiratory illness caused by the SARS-CoV-2 virus, with widely varying severity.",
+    "emergency_flags": [
+      "difficulty breathing",
+      "persistent chest pain",
+      "confusion",
+      "bluish lips"
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "severe headache",
+      "joint pain",
+      "rash",
+      "nausea",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "mosquito exposure",
+      "tropical climate residence",
+      "stagnant water nearby"
+    ],
+    "specialist": "Infectious Disease Specialist",
+    "severity": "high",
+    "description": "Mosquito-borne viral infection causing high fever and severe body aches.",
+    "emergency_flags": [
+      "severe bleeding",
+      "persistent vomiting",
+      "severe abdominal pain"
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "chills",
+      "sweating",
+      "headache",
+      "fatigue",
+      "nausea"
+    ],
+    "risk_factors": [
+      "mosquito exposure",
+      "travel to endemic regions"
+    ],
+    "specialist": "Infectious Disease Specialist",
+    "severity": "high",
+    "description": "Mosquito-borne parasitic infection causing recurring fever and flu-like illness.",
+    "emergency_flags": [
+      "confusion",
+      "loss of consciousness",
+      "very high fever"
+    ]
+  },
+  {
+    "disease": "Typhoid Fever",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "prolonged fever",
+      "weakness",
+      "abdominal pain",
+      "headache",
+      "loss of appetite"
+    ],
+    "risk_factors": [
+      "contaminated food",
+      "contaminated water",
+      "poor sanitation"
+    ],
+    "specialist": "Infectious Disease Specialist",
+    "severity": "high",
+    "description": "Bacterial infection spread through contaminated food and water, causing sustained high fever.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Chickenpox",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "itchy rash",
+      "fever",
+      "fatigue",
+      "loss of appetite",
+      "blisters"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "no prior vaccination"
+    ],
+    "specialist": "General Physician",
+    "severity": "low",
+    "description": "Highly contagious viral infection causing an itchy, blister-like rash and fever.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Measles",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "cough",
+      "runny nose",
+      "red eyes",
+      "skin rash"
+    ],
+    "risk_factors": [
+      "no vaccination",
+      "close contact with infected person"
+    ],
+    "specialist": "General Physician",
+    "severity": "medium",
+    "description": "Highly contagious viral infection causing fever, cough, and a characteristic red rash.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Mumps",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "swollen salivary glands",
+      "fever",
+      "headache",
+      "muscle pain",
+      "loss of appetite"
+    ],
+    "risk_factors": [
+      "no vaccination",
+      "close contact with infected person"
+    ],
+    "specialist": "General Physician",
+    "severity": "medium",
+    "description": "Viral infection primarily affecting the salivary glands, causing facial swelling near the jaw.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Lyme Disease",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "rash",
+      "fever",
+      "fatigue",
+      "headache",
+      "joint pain"
+    ],
+    "risk_factors": [
+      "tick exposure",
+      "outdoor activity in wooded areas"
+    ],
+    "specialist": "Infectious Disease Specialist",
+    "severity": "medium",
+    "description": "Bacterial infection transmitted through the bite of an infected tick.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Sepsis",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "rapid heartbeat",
+      "rapid breathing",
+      "confusion",
+      "low blood pressure"
+    ],
+    "risk_factors": [
+      "weakened immune system",
+      "recent infection",
+      "chronic illness",
+      "recent surgery"
+    ],
+    "specialist": "Infectious Disease Specialist",
+    "severity": "high",
+    "description": "Life-threatening, extreme immune response to infection that can damage organs.",
+    "emergency_flags": [
+      "confusion",
+      "low blood pressure",
+      "rapid breathing",
+      "fever with chills"
+    ]
+  },
+  {
+    "disease": "Anemia",
+    "category": "Hematology",
+    "symptoms": [
+      "fatigue",
+      "pale skin",
+      "shortness of breath",
+      "dizziness",
+      "weakness"
+    ],
+    "risk_factors": [
+      "poor diet",
+      "chronic blood loss",
+      "pregnancy",
+      "chronic disease"
+    ],
+    "specialist": "Hematologist",
+    "severity": "medium",
+    "description": "Deficiency of healthy red blood cells leading to reduced oxygen delivery to body tissues.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Iron Deficiency Anemia",
+    "category": "Hematology",
+    "symptoms": [
+      "fatigue",
+      "pale skin",
+      "brittle nails",
+      "shortness of breath",
+      "headache"
+    ],
+    "risk_factors": [
+      "poor diet",
+      "heavy menstrual bleeding",
+      "pregnancy",
+      "chronic blood loss"
+    ],
+    "specialist": "Hematologist",
+    "severity": "low",
+    "description": "The most common form of anemia, caused by insufficient iron to produce hemoglobin.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Leukemia",
+    "category": "Hematology",
+    "symptoms": [
+      "fatigue",
+      "frequent infections",
+      "easy bruising",
+      "weight loss",
+      "bone pain"
+    ],
+    "risk_factors": [
+      "family history",
+      "exposure to radiation",
+      "certain chemical exposure"
+    ],
+    "specialist": "Hematologist",
+    "severity": "high",
+    "description": "Cancer of the blood-forming tissues, including bone marrow and the lymphatic system.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hemophilia",
+    "category": "Hematology",
+    "symptoms": [
+      "excessive bleeding",
+      "easy bruising",
+      "joint pain",
+      "joint swelling"
+    ],
+    "risk_factors": [
+      "family history",
+      "genetic inheritance"
+    ],
+    "specialist": "Hematologist",
+    "severity": "high",
+    "description": "Genetic disorder impairing the body's ability to form blood clots, leading to excessive bleeding.",
+    "emergency_flags": [
+      "uncontrolled bleeding",
+      "severe internal bleeding"
+    ]
+  },
+  {
+    "disease": "Thrombocytopenia",
+    "category": "Hematology",
+    "symptoms": [
+      "easy bruising",
+      "prolonged bleeding",
+      "petechiae",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "autoimmune disease",
+      "certain medications",
+      "viral infection"
+    ],
+    "specialist": "Hematologist",
+    "severity": "medium",
+    "description": "Condition characterized by abnormally low levels of platelets in the blood.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Sinusitis",
+    "category": "ENT",
+    "symptoms": [
+      "facial pain",
+      "nasal congestion",
+      "headache",
+      "thick nasal discharge",
+      "reduced smell"
+    ],
+    "risk_factors": [
+      "allergies",
+      "common cold",
+      "nasal polyps",
+      "smoking"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Inflammation of the sinuses, often following a cold or due to allergies, causing facial pressure.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Tonsillitis",
+    "category": "ENT",
+    "symptoms": [
+      "sore throat",
+      "difficulty swallowing",
+      "fever",
+      "swollen tonsils",
+      "bad breath"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "young age"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Inflammation of the tonsils, usually caused by viral or bacterial infection.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Otitis Media",
+    "category": "ENT",
+    "symptoms": [
+      "ear pain",
+      "fever",
+      "hearing difficulty",
+      "ear drainage",
+      "irritability"
+    ],
+    "risk_factors": [
+      "young age",
+      "recent cold",
+      "allergies"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Middle ear infection, common in children, often following a respiratory infection.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Pharyngitis",
+    "category": "ENT",
+    "symptoms": [
+      "sore throat",
+      "difficulty swallowing",
+      "swollen glands",
+      "fever"
+    ],
+    "risk_factors": [
+      "viral infection",
+      "bacterial infection",
+      "close contact with infected person"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Inflammation of the throat (pharynx), commonly known as a sore throat.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Allergic Rhinitis",
+    "category": "ENT",
+    "symptoms": [
+      "sneezing",
+      "runny nose",
+      "itchy eyes",
+      "nasal congestion",
+      "cough"
+    ],
+    "risk_factors": [
+      "pollen exposure",
+      "dust exposure",
+      "pet dander",
+      "family history"
+    ],
+    "specialist": "Allergist",
+    "severity": "low",
+    "description": "Allergic inflammation of the nasal airways triggered by allergens such as pollen or dust.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Meniere's Disease",
+    "category": "ENT",
+    "symptoms": [
+      "vertigo",
+      "hearing loss",
+      "ringing in ears",
+      "feeling of ear fullness"
+    ],
+    "risk_factors": [
+      "fluid imbalance in inner ear",
+      "family history"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "medium",
+    "description": "Inner ear disorder causing episodes of vertigo, hearing loss, and ringing in the ears.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Laryngitis",
+    "category": "ENT",
+    "symptoms": [
+      "hoarseness",
+      "sore throat",
+      "dry cough",
+      "difficulty speaking"
+    ],
+    "risk_factors": [
+      "overuse of voice",
+      "viral infection",
+      "smoking",
+      "acid reflux"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Inflammation of the voice box (larynx) often causing hoarseness or temporary loss of voice.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Epistaxis",
+    "category": "ENT",
+    "symptoms": [
+      "nosebleed",
+      "blood from nose",
+      "nasal discomfort"
+    ],
+    "risk_factors": [
+      "dry air",
+      "nasal trauma",
+      "high blood pressure",
+      "blood thinning medication"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Bleeding from the nose, commonly caused by dry air, irritation, or minor trauma.",
+    "emergency_flags": [
+      "prolonged uncontrolled bleeding"
+    ]
+  },
+  {
+    "disease": "Conjunctivitis",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "red eyes",
+      "itchy eyes",
+      "watery eyes",
+      "eye discharge",
+      "gritty feeling in eye"
+    ],
+    "risk_factors": [
+      "viral infection",
+      "bacterial infection",
+      "allergies"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "low",
+    "description": "Inflammation of the membrane covering the eye, commonly known as pink eye.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Cataract",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "blurred vision",
+      "faded colors",
+      "glare sensitivity",
+      "poor night vision"
+    ],
+    "risk_factors": [
+      "age",
+      "diabetes",
+      "smoking",
+      "prolonged sun exposure"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "low",
+    "description": "Clouding of the eye's natural lens, leading to gradual, painless vision loss.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Glaucoma",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "gradual vision loss",
+      "eye pain",
+      "blurred vision",
+      "halos around lights"
+    ],
+    "risk_factors": [
+      "age",
+      "family history",
+      "high eye pressure",
+      "diabetes"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "medium",
+    "description": "Group of eye conditions that damage the optic nerve, often related to high eye pressure.",
+    "emergency_flags": [
+      "sudden severe eye pain",
+      "sudden vision loss"
+    ]
+  },
+  {
+    "disease": "Macular Degeneration",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "blurred central vision",
+      "difficulty reading",
+      "distorted vision"
+    ],
+    "risk_factors": [
+      "age",
+      "smoking",
+      "family history"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "medium",
+    "description": "Age-related condition that damages the macula, causing loss of central vision.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Dry Eye Syndrome",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "eye dryness",
+      "eye irritation",
+      "burning sensation",
+      "blurred vision"
+    ],
+    "risk_factors": [
+      "age",
+      "prolonged screen use",
+      "dry climate",
+      "certain medications"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "low",
+    "description": "Condition in which the eyes don't produce enough tears or the tears evaporate too quickly.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Retinal Detachment",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "sudden flashes of light",
+      "floaters",
+      "vision loss",
+      "shadow in vision"
+    ],
+    "risk_factors": [
+      "age",
+      "severe nearsightedness",
+      "previous eye surgery",
+      "eye trauma"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "high",
+    "description": "Serious condition in which the retina pulls away from its normal position at the back of the eye.",
+    "emergency_flags": [
+      "sudden vision loss",
+      "curtain-like shadow in vision"
+    ]
+  },
+  {
+    "disease": "Stye",
+    "category": "Ophthalmology",
+    "symptoms": [
+      "eyelid swelling",
+      "eyelid pain",
+      "eyelid redness",
+      "tearing"
+    ],
+    "risk_factors": [
+      "poor eyelid hygiene",
+      "contact lens use"
+    ],
+    "specialist": "Ophthalmologist",
+    "severity": "low",
+    "description": "A small, painful lump on the eyelid caused by an infected oil gland.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Anaphylaxis",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "facial swelling",
+      "difficulty breathing",
+      "skin rash",
+      "rapid heartbeat",
+      "dizziness"
+    ],
+    "risk_factors": [
+      "known allergies",
+      "insect sting exposure",
+      "food allergy",
+      "drug allergy"
+    ],
+    "specialist": "Allergist",
+    "severity": "high",
+    "description": "Severe, life-threatening allergic reaction that can develop within minutes of exposure to an allergen.",
+    "emergency_flags": [
+      "difficulty breathing",
+      "facial swelling",
+      "loss of consciousness"
+    ]
+  },
+  {
+    "disease": "Food Poisoning",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "nausea",
+      "vomiting",
+      "diarrhea",
+      "abdominal cramps",
+      "fever"
+    ],
+    "risk_factors": [
+      "contaminated food",
+      "improper food storage",
+      "undercooked food"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "low",
+    "description": "Illness caused by eating food contaminated with bacteria, viruses, or toxins.",
+    "emergency_flags": [
+      "severe dehydration",
+      "bloody diarrhea"
+    ]
+  },
+  {
+    "disease": "Chronic Fatigue Syndrome",
+    "category": "Psychiatry",
+    "symptoms": [
+      "persistent fatigue",
+      "muscle pain",
+      "joint pain",
+      "poor concentration",
+      "sleep disturbance"
+    ],
+    "risk_factors": [
+      "viral infection history",
+      "stress",
+      "immune dysfunction"
+    ],
+    "specialist": "General Physician",
+    "severity": "low",
+    "description": "Complex disorder characterized by extreme fatigue that doesn't improve with rest.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Fibromyalgia",
+    "category": "Orthopedics",
+    "symptoms": [
+      "widespread muscle pain",
+      "fatigue",
+      "sleep disturbance",
+      "difficulty concentrating"
+    ],
+    "risk_factors": [
+      "family history",
+      "stress",
+      "other rheumatic disease"
+    ],
+    "specialist": "Rheumatologist",
+    "severity": "medium",
+    "description": "Chronic disorder causing widespread musculoskeletal pain along with fatigue and tenderness.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Chronic Sinus Headache",
+    "category": "Neurology",
+    "symptoms": [
+      "facial pain",
+      "headache",
+      "nasal congestion",
+      "pressure behind eyes"
+    ],
+    "risk_factors": [
+      "allergies",
+      "chronic sinusitis",
+      "nasal polyps"
+    ],
+    "specialist": "Neurologist",
+    "severity": "low",
+    "description": "Headache caused by pressure from sinus inflammation, often confused with migraine.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Mononucleosis",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "extreme fatigue",
+      "sore throat",
+      "fever",
+      "swollen lymph nodes",
+      "headache"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "young age"
+    ],
+    "specialist": "General Physician",
+    "severity": "low",
+    "description": "Viral infection commonly spread through saliva, causing prolonged fatigue and sore throat.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Strep Throat",
+    "category": "ENT",
+    "symptoms": [
+      "sore throat",
+      "fever",
+      "swollen tonsils",
+      "difficulty swallowing",
+      "headache"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "young age",
+      "winter season"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Bacterial infection of the throat and tonsils caused by group A Streptococcus.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Carpal Tunnel Syndrome",
+    "category": "Orthopedics",
+    "symptoms": [
+      "numbness in hand",
+      "tingling in hand",
+      "wrist pain",
+      "weak grip"
+    ],
+    "risk_factors": [
+      "repetitive hand motion",
+      "pregnancy",
+      "diabetes",
+      "obesity"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "low",
+    "description": "Compression of the median nerve in the wrist, causing numbness and tingling in the hand.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Varicose Veins",
+    "category": "Cardiology",
+    "symptoms": [
+      "swollen veins",
+      "leg pain",
+      "leg heaviness",
+      "leg swelling"
+    ],
+    "risk_factors": [
+      "prolonged standing",
+      "obesity",
+      "pregnancy",
+      "family history"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "low",
+    "description": "Enlarged, twisted veins usually appearing in the legs due to weakened vein valves.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Costochondritis",
+    "category": "Cardiology",
+    "symptoms": [
+      "chest pain",
+      "tenderness over ribs",
+      "pain with deep breathing"
+    ],
+    "risk_factors": [
+      "physical strain",
+      "respiratory infection",
+      "minor chest trauma"
+    ],
+    "specialist": "Cardiologist",
+    "severity": "low",
+    "description": "Inflammation of the cartilage connecting the ribs to the breastbone, causing chest pain.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Diverticulitis",
+    "category": "Gastroenterology",
+    "symptoms": [
+      "abdominal pain",
+      "fever",
+      "nausea",
+      "constipation",
+      "bloating"
+    ],
+    "risk_factors": [
+      "low fiber diet",
+      "obesity",
+      "age",
+      "smoking"
+    ],
+    "specialist": "Gastroenterologist",
+    "severity": "medium",
+    "description": "Inflammation or infection of small pouches that can form in the lining of the intestine.",
+    "emergency_flags": [
+      "severe abdominal pain",
+      "high fever"
+    ]
+  },
+  {
+    "disease": "Bronchiolitis",
+    "category": "Respiratory",
+    "symptoms": [
+      "cough",
+      "wheezing",
+      "rapid breathing",
+      "fever",
+      "difficulty feeding"
+    ],
+    "risk_factors": [
+      "young age",
+      "premature birth",
+      "exposure to smoke"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "medium",
+    "description": "Common viral infection of the small airways in the lungs, most common in infants.",
+    "emergency_flags": [
+      "severe difficulty breathing",
+      "bluish skin"
+    ]
+  },
+  {
+    "disease": "Whooping Cough",
+    "category": "Respiratory",
+    "symptoms": [
+      "severe coughing fits",
+      "whooping sound when breathing",
+      "vomiting after coughing",
+      "fatigue"
+    ],
+    "risk_factors": [
+      "no vaccination",
+      "close contact with infected person"
+    ],
+    "specialist": "Pulmonologist",
+    "severity": "medium",
+    "description": "Highly contagious bacterial respiratory infection causing severe, prolonged coughing fits.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Scabies",
+    "category": "Dermatology",
+    "symptoms": [
+      "intense itching",
+      "skin rash",
+      "small blisters",
+      "thin burrow lines on skin"
+    ],
+    "risk_factors": [
+      "close contact with infected person",
+      "crowded living conditions"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Contagious skin infestation caused by tiny mites that burrow into the skin.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Rosacea",
+    "category": "Dermatology",
+    "symptoms": [
+      "facial redness",
+      "visible blood vessels",
+      "skin bumps",
+      "eye irritation"
+    ],
+    "risk_factors": [
+      "fair skin",
+      "family history",
+      "sun exposure"
+    ],
+    "specialist": "Dermatologist",
+    "severity": "low",
+    "description": "Chronic skin condition causing facial redness and visible blood vessels, often with bumps.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Vertebral Compression Fracture",
+    "category": "Orthopedics",
+    "symptoms": [
+      "back pain",
+      "loss of height",
+      "stooped posture",
+      "limited spinal mobility"
+    ],
+    "risk_factors": [
+      "osteoporosis",
+      "age",
+      "trauma"
+    ],
+    "specialist": "Orthopedist",
+    "severity": "medium",
+    "description": "A collapse or crush injury of a spinal bone, commonly caused by osteoporosis.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Otitis Externa",
+    "category": "ENT",
+    "symptoms": [
+      "ear pain",
+      "ear itching",
+      "ear discharge",
+      "hearing difficulty"
+    ],
+    "risk_factors": [
+      "swimming",
+      "humid climate",
+      "ear canal injury"
+    ],
+    "specialist": "ENT Specialist",
+    "severity": "low",
+    "description": "Infection or inflammation of the outer ear canal, often called swimmer's ear.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Acute Kidney Injury",
+    "category": "Nephrology",
+    "symptoms": [
+      "reduced urine output",
+      "swelling in legs",
+      "fatigue",
+      "confusion",
+      "shortness of breath"
+    ],
+    "risk_factors": [
+      "severe dehydration",
+      "certain medications",
+      "severe infection",
+      "major surgery"
+    ],
+    "specialist": "Nephrologist",
+    "severity": "high",
+    "description": "Sudden episode of kidney failure or damage occurring within hours or days.",
+    "emergency_flags": [
+      "minimal urine output",
+      "confusion",
+      "severe swelling"
+    ]
+  },
+  {
+    "disease": "Autoimmune Hepatitis",
+    "category": "Hepatology",
+    "symptoms": [
+      "fatigue",
+      "abdominal discomfort",
+      "yellowing of skin",
+      "joint pain",
+      "itchy skin"
+    ],
+    "risk_factors": [
+      "family history",
+      "other autoimmune diseases",
+      "female sex"
+    ],
+    "specialist": "Hepatologist",
+    "severity": "medium",
+    "description": "Chronic disease in which the immune system attacks the liver, causing inflammation.",
+    "emergency_flags": []
+  },
+  {
+    "disease": "Hand Foot and Mouth Disease",
+    "category": "Infectious Diseases",
+    "symptoms": [
+      "fever",
+      "mouth sores",
+      "skin rash",
+      "loss of appetite",
+      "sore throat"
+    ],
+    "risk_factors": [
+      "young age",
+      "close contact with infected person"
+    ],
+    "specialist": "General Physician",
+    "severity": "low",
+    "description": "Common viral illness in young children causing sores in the mouth and a rash on hands and feet.",
+    "emergency_flags": []
+  }
+]

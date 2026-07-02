@@ -1,0 +1,36 @@
+{
+  "hemoglobin": {"min": 13.0, "max": 17.0, "unit": "g/dL", "report_type": "CBC"},
+  "wbc_count": {"min": 4000, "max": 11000, "unit": "/uL", "report_type": "CBC"},
+  "rbc_count": {"min": 4.5, "max": 5.9, "unit": "million/uL", "report_type": "CBC"},
+  "platelet_count": {"min": 150000, "max": 450000, "unit": "/uL", "report_type": "CBC"},
+  "hematocrit": {"min": 38.8, "max": 50.0, "unit": "%", "report_type": "CBC"},
+  "mcv": {"min": 80, "max": 100, "unit": "fL", "report_type": "CBC"},
+  "mch": {"min": 27, "max": 33, "unit": "pg", "report_type": "CBC"},
+  "mchc": {"min": 32, "max": 36, "unit": "g/dL", "report_type": "CBC"},
+
+  "glucose": {"min": 70, "max": 99, "unit": "mg/dL", "report_type": "Blood Sugar"},
+  "postprandial_glucose": {"min": 70, "max": 140, "unit": "mg/dL", "report_type": "Blood Sugar"},
+  "hba1c": {"min": 4.0, "max": 5.6, "unit": "%", "report_type": "Blood Sugar"},
+
+  "cholesterol": {"min": 125, "max": 200, "unit": "mg/dL", "report_type": "Lipid Profile"},
+  "ldl": {"min": 0, "max": 100, "unit": "mg/dL", "report_type": "Lipid Profile"},
+  "hdl": {"min": 40, "max": 60, "unit": "mg/dL", "report_type": "Lipid Profile"},
+  "triglycerides": {"min": 0, "max": 150, "unit": "mg/dL", "report_type": "Lipid Profile"},
+  "vldl": {"min": 5, "max": 30, "unit": "mg/dL", "report_type": "Lipid Profile"},
+
+  "tsh": {"min": 0.4, "max": 4.0, "unit": "mIU/L", "report_type": "Thyroid Profile"},
+  "t3": {"min": 80, "max": 200, "unit": "ng/dL", "report_type": "Thyroid Profile"},
+  "t4": {"min": 5.0, "max": 12.0, "unit": "ug/dL", "report_type": "Thyroid Profile"},
+
+  "creatinine": {"min": 0.6, "max": 1.3, "unit": "mg/dL", "report_type": "Kidney Function Test"},
+  "urea": {"min": 7, "max": 20, "unit": "mg/dL", "report_type": "Kidney Function Test"},
+  "bun": {"min": 7, "max": 20, "unit": "mg/dL", "report_type": "Kidney Function Test"},
+  "uric_acid": {"min": 3.5, "max": 7.2, "unit": "mg/dL", "report_type": "Kidney Function Test"},
+
+  "sgot": {"min": 5, "max": 40, "unit": "U/L", "report_type": "Liver Function Test"},
+  "sgpt": {"min": 7, "max": 56, "unit": "U/L", "report_type": "Liver Function Test"},
+  "bilirubin": {"min": 0.1, "max": 1.2, "unit": "mg/dL", "report_type": "Liver Function Test"},
+  "alkaline_phosphatase": {"min": 44, "max": 147, "unit": "U/L", "report_type": "Liver Function Test"},
+  "albumin": {"min": 3.5, "max": 5.0, "unit": "g/dL", "report_type": "Liver Function Test"},
+  "total_protein": {"min": 6.0, "max": 8.3, "unit": "g/dL", "report_type": "Liver Function Test"}
+}

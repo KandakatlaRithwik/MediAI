@@ -1,0 +1,5 @@
+LIVER FUNCTION TEST
+SGOT: 65
+SGPT: 90
+Total Bilirubin: 1.9
+Albumin: 4.2

@@ -1,0 +1,53 @@
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Validation / config ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+numpy==1.26.4
+
+# --- RAG framework ---
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+pypdf==5.1.0
+pdfplumber==0.11.9
+
+# --- Embeddings ---
+sentence-transformers==3.3.1
+tokenizers==0.20.3
+
+# --- Vector database ---
+chromadb==0.5.23
+
+# --- LLM (Gemini) ---
+google-genai==1.2.0
+
+# --- Database (required by Module 4 auth and Module 5 patient history) ---
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.18.4
+
+# --- Auth (Module 4) ---
+bcrypt==5.0.0
+python-jose[cryptography]==3.5.0
+email-validator==2.3.0
+
+# --- OCR (Module 6) ---
+easyocr==1.7.2
+pillow==12.1.1
+opencv-python-headless==4.10.0.84
+pytesseract==0.3.13
+
+# --- DOCX report ingestion ---
+python-docx==1.1.2
+
+# --- Rate Limiting (Module 7) ---
+slowapi==0.1.10
+
+# --- Testing ---
+pytest==8.3.4
+httpx==0.28.1

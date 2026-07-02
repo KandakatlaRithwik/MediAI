@@ -1,0 +1,51 @@
+# ==========================
+# Environment
+# ==========================
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Application Data
+# ==========================
+chroma_db/*
+!chroma_db/.gitkeep
+
+uploads/*
+!uploads/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
