@@ -60,25 +60,7 @@ async def lifespan(app: FastAPI):
         system_logger.info("Database tables initialized.")
     except Exception as exc:  # noqa: BLE001
         system_logger.warning("Database table initialization skipped/failed: %s", exc)
-
-    # --- Preload heavy singletons so the first request isn't slow ---
-    try:
-        from app.services.embedding_service import EmbeddingService
-        from app.rag.vector_store import VectorStoreService
-        EmbeddingService()
-        VectorStoreService()
-        system_logger.info("Embedding model + ChromaDB preloaded.")
-    except Exception as exc:  # noqa: BLE001
-        system_logger.warning("Preload of embedding/vector store failed: %s", exc)
-
-    if settings.OCR_ENABLED:
-        try:
-            from app.services.ocr_service import OCRService
-            OCRService()._get_reader()  # warm up EasyOCR weights
-            system_logger.info("EasyOCR reader preloaded.")
-        except Exception as exc:  # noqa: BLE001
-            system_logger.warning("OCR preload failed (will lazy-load on first use): %s", exc)
-
+    system_logger.info("AI models will be loaded lazily on first use.")
     system_logger.info("OCR enabled: %s", settings.OCR_ENABLED)
     yield
     system_logger.info("Medical RAG Engine shutting down.")
@@ -153,4 +135,10 @@ app.include_router(system.router)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=int(os.getenv("PORT", 8000)),
+        reload=True,
+    )
