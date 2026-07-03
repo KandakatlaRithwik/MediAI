@@ -53,7 +53,7 @@ function RegisterPage() {
           }
         }}
       >
-        <Field label="Full name" required value={name} onChange={(e) => setName(e.target.value)} placeholder="Dr. Jane Doe" />
+        <Field label="Full name" required value={name} onChange={(e) => setName(e.target.value)} placeholder="Jane Doe" />
         <Field label="Email" type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@clinic.com" />
         <Field label="Password" type="password" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder="At least 8 characters" />
         <SelectField
