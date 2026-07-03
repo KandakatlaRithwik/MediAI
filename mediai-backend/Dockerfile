@@ -2,7 +2,7 @@
 # Stage 1: Dependency builder
 # Keeps build tools out of the final image.
 # ============================================================
-FROM python:3.12-slim AS builder
+FROM python:3.11-slim AS builder
 
 # System packages needed to compile some Python wheels
 # (psycopg2, bcrypt, opencv, easyocr, tesseract).
@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir --prefix=/install/deps -r requirements.txt
 # ============================================================
 # Stage 2: Runtime image
 # ============================================================
-FROM python:3.12-slim AS runtime
+FROM python:3.11-slim AS runtime
 
 LABEL org.opencontainers.image.title="Medical Assistant Backend"
 LABEL org.opencontainers.image.description="AI-Powered Medical Assistant — FastAPI backend"
@@ -64,10 +64,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONPATH=/app
 
-EXPOSE 8000
+EXPOSE 10000
 
 # Health check: hits the lightweight /health endpoint.
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD python3 -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+    CMD python3 -c "import os, urllib.request; urllib.request.urlopen(f'http://localhost:{os.getenv(\"PORT\", \"10000\")}/health')" || exit 1
 
 CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-10000}"]
