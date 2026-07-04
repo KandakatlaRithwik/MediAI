@@ -61,32 +61,32 @@ class SystemHealthService:
         return {"status": STATUS_HEALTHY, "model": settings.GEMINI_MODEL_NAME}
 
     def check_ocr(self) -> Dict[str, object]:
-    """
-    Lightweight OCR health check.
+        """
+        Lightweight OCR health check.
 
-    Do NOT initialize EasyOCR here.
-    The OCR model is loaded lazily when an OCR request is made.
-    """
+        Do NOT initialize EasyOCR here.
+        The OCR model is loaded lazily when an OCR request is made.
+        """
 
-    from app.core.config import get_settings
-    import shutil
+        from app.core.config import get_settings
+        import shutil
 
-    settings = get_settings()
+        settings = get_settings()
 
-    if not settings.OCR_ENABLED:
+        if not settings.OCR_ENABLED:
+            return {
+                "status": STATUS_DISABLED,
+                "detail": "OCR is disabled."
+            }
+
+        tesseract_available = shutil.which("tesseract") is not None
+
         return {
-            "status": STATUS_DISABLED,
-            "detail": "OCR is disabled."
+            "status": STATUS_HEALTHY,
+            "engine": "EasyOCR (lazy loading)",
+            "tesseract": tesseract_available,
+            "detail": "OCR model will be loaded on first OCR request."
         }
-
-    tesseract_available = shutil.which("tesseract") is not None
-
-    return {
-        "status": STATUS_HEALTHY,
-        "engine": "EasyOCR (lazy loading)",
-        "tesseract": tesseract_available,
-        "detail": "OCR model will be loaded on first OCR request."
-    }
 
     def get_full_status(self) -> Dict[str, Dict]:
         """Run all component checks and return a combined status dict."""
