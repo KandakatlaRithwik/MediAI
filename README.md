@@ -5,6 +5,15 @@ MediAI is a full-stack AI-powered healthcare application that provides intellige
 It combines modern AI technologies with a secure healthcare workflow to help users better understand their symptoms and medical reports.
 
 ---
+## 🌐 Live Demo
+
+**Live Link:** https://mediai2026.vercel.app/
+
+> **Deployment**
+> - Frontend: Vercel
+> - Backend API: Railway
+
+---
 
 ##  Features
 
@@ -97,6 +106,23 @@ MediaAI
 
 ---
 
+## 🏗 Architecture
+
+```
+React + TypeScript (Vercel)
+          │
+          ▼
+ FastAPI Backend (Railway)
+          │
+ ├── Gemini AI
+ ├── ChromaDB (RAG)
+ ├── PostgreSQL
+ ├── OCR Engine
+ └── JWT Authentication
+```
+
+---
+
 ## ⚙️ Installation
 
 ### Clone Repository
@@ -182,6 +208,6 @@ LinkedIn: https://www.linkedin.com/in/rithwik-kandakatla/
 
 ---
 
-## ⭐ Support
+## 📜 License
 
-If you like this project, consider giving it a ⭐ on GitHub.
+This project is developed for educational and research purposes.
